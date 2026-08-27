@@ -1,0 +1,52 @@
+[
+  {
+    "id": "rag",
+    "title": "Retrieval-augmented generation",
+    "text": "RAG retrieves relevant evidence at request time and gives that evidence to a language model so the answer can be grounded and cited."
+  },
+  {
+    "id": "embeddings",
+    "title": "Embeddings and vector search",
+    "text": "Embeddings represent meaning as numeric vectors. Nearest-neighbor search can retrieve semantically similar passages even when they use different words."
+  },
+  {
+    "id": "chunking",
+    "title": "Document chunking",
+    "text": "Chunking divides a document into retrievable units. Chunk boundaries and size affect whether the necessary evidence can be found."
+  },
+  {
+    "id": "reranking",
+    "title": "Reranking",
+    "text": "A reranker applies a more precise relevance model to a small candidate set after the first retrieval pass."
+  },
+  {
+    "id": "evaluation",
+    "title": "RAG evaluation",
+    "text": "Retrieval and generation should be evaluated separately. Useful retrieval measures include recall at k, precision, and ranking quality."
+  },
+  {
+    "id": "agents",
+    "title": "Agents and tools",
+    "text": "An AI agent uses a model to choose bounded actions, call tools, observe results, and stop when its goal or limit is reached."
+  },
+  {
+    "id": "guardrails",
+    "title": "Prompt injection and guardrails",
+    "text": "Retrieved content is untrusted input. A prompt injection inside a document must not be treated as an instruction with system authority."
+  },
+  {
+    "id": "caching",
+    "title": "Caching",
+    "text": "Caching can reduce repeated model cost and latency, but cache keys and invalidation must account for model, prompt, and data versions."
+  },
+  {
+    "id": "observability",
+    "title": "AI observability",
+    "text": "Production traces should expose retrieval results, model latency, token usage, errors, and evaluation status without recording secrets."
+  },
+  {
+    "id": "fine-tuning",
+    "title": "Fine-tuning",
+    "text": "Fine-tuning updates model behavior or capabilities through training examples. It is not a replacement for retrieving frequently changing facts."
+  }
+]
