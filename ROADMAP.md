@@ -2,6 +2,13 @@
 
 The roadmap contains 24 practice days. Sundays are intentionally left open for rest or catch-up.
 
+Each practice day has two coordinated tracks:
+
+1. a cold-recall question selected from the focused rotation in `questions/README.md`;
+2. the cumulative document-assistant build step below.
+
+The question and build should align when practical. The focused question rotation continues after this 24-day build is complete, so all 246 selected prompts remain available without forcing the project roadmap to become 246 days long.
+
 ## Week 1: Understand the basic loop
 
 | Day | Question | Build | Proof |

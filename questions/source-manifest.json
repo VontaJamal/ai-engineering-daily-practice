@@ -1,0 +1,39 @@
+{
+  "source_repository": "https://github.com/amitshekhariitbhu/ai-engineering-interview-questions",
+  "source_commit": "f0a843b8428ff0deab2ae41da489c84f2ab362ba",
+  "imported_on": "2026-08-27",
+  "license": "Apache-2.0",
+  "total_questions": 246,
+  "sections": {
+    "llm-fundamentals": {
+      "heading": "LLM Fundamentals",
+      "prefix": "LLM",
+      "count": 66
+    },
+    "prompting": {
+      "heading": "Prompt Engineering",
+      "prefix": "PROMPT",
+      "count": 30
+    },
+    "rag": {
+      "heading": "Retrieval-Augmented Generation (RAG)",
+      "prefix": "RAG",
+      "count": 37
+    },
+    "agents": {
+      "heading": "AI Agents and Agentic Systems",
+      "prefix": "AGENT",
+      "count": 45
+    },
+    "system-design": {
+      "heading": "AI System Design",
+      "prefix": "DESIGN",
+      "count": 46
+    },
+    "coding": {
+      "heading": "Coding and Practical Implementation",
+      "prefix": "CODE",
+      "count": 22
+    }
+  }
+}

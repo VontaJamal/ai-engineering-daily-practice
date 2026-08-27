@@ -15,6 +15,19 @@ Use one 30-45 minute session:
 
 Use the [answer framework](docs/answer-framework.md) for the recall step. Update [PROGRESS.md](PROGRESS.md) only after the day's done condition is met.
 
+## Focused question bank
+
+Daily interview questions come from a local catalog of all **246** top-level source prompts in six selected domains:
+
+- LLM fundamentals;
+- prompt engineering;
+- retrieval-augmented generation;
+- AI agents and agentic systems;
+- AI system design;
+- coding and practical implementation.
+
+See [questions/README.md](questions/README.md) for counts, source files, and the round-robin selection rule. Coding is also the applied layer for every session, so concept questions still end with implementation, testing, measurement, or design work. Completed questions are recorded in [QUESTION_LOG.md](QUESTION_LOG.md).
+
 ## Start here: Day 1
 
 **Question:** What is retrieval-augmented generation (RAG), and what problem does it solve?
@@ -47,6 +60,7 @@ The detailed sequence and weekly proof points are in [ROADMAP.md](ROADMAP.md).
 data/        Synthetic learning corpus
 docs/        Explanation and design frameworks
 exercises/   Daily briefs and done conditions
+questions/   Focused interview-question catalog and source manifest
 src/         Implementations that accumulate over time
 tests/       Deterministic regression checks
 ```
